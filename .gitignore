@@ -1,0 +1,6 @@
+.cache
+dist
+node_modules
+
+# prevent someon accidentally commiting after running npm *
+package-lock.json

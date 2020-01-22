@@ -1,0 +1,36 @@
+{
+  "name": "react-parcel-typescript-starter",
+  "author": "El Gato Loco",
+  "description": "React/TypeScript starter with Parcel bundler",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html",
+    "lint": "tsc --noEmit && eslint '*/**/*.{js,ts,tsx}'",
+    "lint:fix": "tsc --noEmit && eslint '*/**/*.{js,ts,tsx}' --quiet --fix"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "@types/react": "^16.9.17",
+    "@types/react-dom": "^16.9.4",
+    "@typescript-eslint/eslint-plugin": "^2.16.0",
+    "@typescript-eslint/parser": "^2.16.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.18.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.8.3",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "license": "MIT"
+}
